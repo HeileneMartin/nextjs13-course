@@ -7,7 +7,7 @@ export default function ProfilePostID() {
     console.log(params.postId);
     return (
         <div>
-        Profile Post ID Page
+        Profile Post ID Page Profile ID: {params.id} Post ID: {params.postId}
         </div>
     )
     }
